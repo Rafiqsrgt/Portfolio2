@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Responsive Breakpoints
+   ========================================================================== */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background: var(--bg-surface);
+        padding: 1.5rem;
+        border-radius: 12px;
+        border: 1px solid var(--border-color);
+        box-shadow: var(--shadow-lg);
+        margin-top: 1rem;
+    }
+    .hero-section { text-align: center; }
+    .hero-section .d-flex.flex-wrap { justify-content: center; }
+    .hero-visual { margin-top: 3rem; margin-bottom: 2rem; max-width: 400px; margin-inline: auto; }
+    .tech-badge { font-size: 0.8rem; padding: 6px 12px; }
+}
+
+@media (max-width: 767.98px) {
+    .display-3 { font-size: 2.5rem; }
+    .display-4 { font-size: 2rem; }
+    .section-padding { padding: 60px 0; }
+    .padding-top-nav { padding-top: 100px; }
+    
+    .tech-strip .d-flex { justify-content: center !important; }
+    .process-timeline { border-left: none; padding-left: 0; text-align: center; }
+    .process-step .step-icon { position: static; margin: 0 auto 15px auto; }
+    
+    .contact-info { margin-bottom: 2rem; }
+}
